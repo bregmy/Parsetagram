@@ -1,4 +1,4 @@
-package com.example.bikeshtagram
+package com.example.Parstagram
 
 import com.parse.*
 

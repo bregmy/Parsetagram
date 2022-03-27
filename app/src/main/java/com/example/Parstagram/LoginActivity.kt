@@ -1,4 +1,4 @@
-package com.example.bikeshtagram
+package com.example.Parstagram
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +23,7 @@ class LoginActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button).setOnClickListener{
             val username= findViewById<EditText>(R.id.username).text.toString()
             val password= findViewById<EditText>(R.id.password).text.toString()
+            Log.i(TAG,"SUCCESS")
             loginUser(username, password)
         }
 

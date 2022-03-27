@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bikeshtagram">
+    package="com.example.Parstagram">
 
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -14,7 +14,7 @@
     </queries>
 
     <application
-        android:name=".ParsetagramApplication"
+        android:name="com.example.Parstagram.ParsetagramApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -36,7 +36,7 @@
 
 
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.Parstagram.LoginActivity"
             android:exported="true" >
 
         <intent-filter>
@@ -46,7 +46,7 @@
         </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.Parstagram.MainActivity"
             android:exported="true">
 
         </activity>
