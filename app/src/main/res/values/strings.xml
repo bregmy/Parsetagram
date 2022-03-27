@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bikeshtagram</string>
+
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">jZsCbboqwOJ9aEKZAvzpVsEgzLfap7ohweQEwhLH
+</string>
+    <string name="back4app_client_key">b4McXLcckW4lCbUXGl3P3cIhgC2v5cWA9auyjSCx
+</string>
+
+
+</resources>
